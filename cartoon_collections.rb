@@ -20,5 +20,5 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(foods)
-  foods.find
+  foods.find {
 end
