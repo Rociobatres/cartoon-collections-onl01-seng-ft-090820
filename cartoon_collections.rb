@@ -21,7 +21,7 @@ end
 
 def find_the_cheese(foods)
   foods.each do |food| 
-    foods.include?("cheddar") 
+    food.include?("cheddar") 
     if true 
       puts "cheddar"
     else
