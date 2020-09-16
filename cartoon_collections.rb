@@ -21,8 +21,6 @@ end
 
 def find_the_cheese(foods)
   foods.include?("cheddar") if true puts "cheddar"
-  if true
-    puts "cheddar"
   else
     nil 
   end   
