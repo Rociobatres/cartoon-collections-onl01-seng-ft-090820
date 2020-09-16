@@ -20,5 +20,5 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(foods)
-  foods.map.select {|snack| snack.include?("cheddar") }
+  foods.find_all {|snack| snack.find_the_cheese("cheddar") }
 end
