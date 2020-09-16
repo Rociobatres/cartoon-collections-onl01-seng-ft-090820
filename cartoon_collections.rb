@@ -21,7 +21,7 @@ end
 
 def find_the_cheese(foods)
   foods.join(",") 
-  if foods.include?("cheddar") == true 
+  if foods.include?("cheddar") 
       puts "cheddar"
     else
       nil 
